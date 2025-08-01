@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h2>Dashboard</h2>
+    <h4>Notifications</h4>
+    <ul>
+        {% for note in notifications %}
+        <li>{{ note }}</li>
+        {% else %}
+        <li>No notifications.</li>
+        {% endfor %}
+    </ul>
+    <h4>Exam Results</h4>
+    <ul>
+        {% for result in results %}
+        <li>{{ result }}</li>
+        {% else %}
+        <li>No results.</li>
+        {% endfor %}
+    </ul>
+    <h4>Timetable</h4>
+    <ul>
+        {% for item in timetable %}
+        <li>{{ item }}</li>
+        {% else %}
+        <li>No timetable data.</li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
