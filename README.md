@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Management System - Flask
 
 A web-based portal for students and admins to manage notifications, exam results, timetables, and more.
@@ -33,3 +34,6 @@ A web-based portal for students and admins to manage notifications, exam results
 - `static/` - CSS/JS files
 
 ---
+=======
+# Student-management-System
+>>>>>>> 3d7091255b5ed9177d53193a67515be4c53aafbb
